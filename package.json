@@ -1,0 +1,20 @@
+{
+  "name": "@thinairthings/string-parsing",
+  "version": "1.0.0",
+  "description": "Basic string parsing functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThinAirThings/string-parsing.git"
+  },
+  "scripts": {
+    "npmpub": "tsc && git add . && git commit -m \"mod\" && git push && npm version patch && npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
